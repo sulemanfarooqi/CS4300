@@ -1,4 +1,4 @@
 # CS4300
 <!-- Group Project Members -->
 # Members:
-Suleman Farooqi (Group Leader)
+<p>Suleman Farooqi (Group Leader)</p>
