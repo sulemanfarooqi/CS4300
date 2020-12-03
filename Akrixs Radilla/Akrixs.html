@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Personal Web Page</title>
+   </head>
+   <body style="background-color:lavender;">
+   <link href = 'http://fonts.googleapis.com/css?family=Calligraffitti'
+      rel = 'stylesheet' type='text/css'>
+   <style type = "text/css">
+   
+
+   body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: black;
+      color: white;
+      font-family: "Calligraffitti";
+      font-size: px;
+      margin-left: 160px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+   }
+
+   .deconstructed {
+      position: relative;
+      margin: auto;
+      height: 0.71em;
+      color: transparent;
+      font-family: 'Cambay', sans-serif;
+      font-size: 10vw;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.03em;
+   }
+
+   .deconstructed > div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: #ffff64;
+      pointer-events: none;
+   }
+
+   .deconstructed > div:nth-child(1) {
+      -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+      mask-image: linear-gradient(black 25%, transparent 25%);
+      animation: deconstructed1 5s infinite;
+   }
+
+   .deconstructed > div:nth-child(2) {
+      -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+      mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+      animation: deconstructed2 5s infinite;
+   }
+
+   .deconstructed > div:nth-child(3) {
+      -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+      mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+      animation: deconstructed3 5s infinite;
+   }
+
+   .deconstructed > div:nth-child(4) {
+      -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+      mask-image: linear-gradient(transparent 75%, black 75%);
+      animation: deconstructed4 5s infinite;
+   }
+   
+
+   @keyframes deconstructed1 {
+      0% {
+         transform: translateX(100%);
+      }
+      26% {
+         transform: translateX(0%);
+      }
+      83% {
+         transform: translateX(-0.1%);
+      }
+      100% {
+         transform: translateX(-120%);
+      }
+   }
+
+   @keyframes deconstructed2 {
+      0% {
+         transform: translateX(100%);
+      }
+      24% {
+         transform: translateX(0.5%);
+      }
+      82% {
+      transform: translateX(-0.2%);
+      }
+      100% {
+         transform: translateX(-125%);
+      }
+   }
+
+   @keyframes deconstructed3 {
+      0% {
+         transform: translateX(100%);
+      }
+      22% {
+         transform: translateX(0%);
+      }
+      81% {
+         transform: translateX(0%);
+      }
+      100% {
+         transform: translateX(-130%);
+      }
+   }
+
+      @keyframes deconstructed4 {
+      0% {
+         transform: translateX(100%);
+      }
+      20% {
+         transform: translateX(0%);
+      }
+      80% {
+         transform: translateX(0%);
+      }
+      100% {
+         transform: translateX(-135%);
+      }
+   }
+
+      .container-class 
+      {
+         background-image: url("back7.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         border: 2px dashed #333;
+      }
+
+      .sidenav {
+         height: 100%;
+         width: 160px;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: #111;
+         overflow-x: hidden;
+         padding-top: 20px;
+      }
+
+      .sidenav a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #818181;
+         display: block;
+      }
+
+      .sidenav a:hover {
+         color: #f1f1f1;
+      }
+
+      @media screen and (max-height: 450px) {
+         .sidenav {padding-top: 15px;}
+         .sidenav a {font-size: 18px;}
+
+         
+}
+      
+   </style> 
+   <body>
+   <div class = "container-class">
+   <div class="deconstructed">
+      WELCOME
+      <div>WELCOME</div>
+      <div>WELCOME</div>
+      <div>WELCOME</div>
+      <div>WELCOME</div>
+      
+   </div>
+      
+   <div class="sidenav">
+      <a href="#intro">Introduction</a>
+      <a href="#pets">My Pets</a>
+      <a href="#devices">My Cellular Devices</a>
+      <a href="#questions">Questions</a>
+   </div>
+
+   <div id = 'intro'><a name = 'intro'><h2 style="text-align:center;"> Introduction</h2></a></div>
+
+	<p><p style="text-align:center;"><a href = "https://www.linkedin.com/in/akrixsradilla">LinkedIn</a></p>
+
+	<p style = text-align:center;>Hello my name is Akrixs Radilla. I have been attending University of Houston - Downtown for 4 years. 
+	This is my last semester attending the university. I will be graduating with a Bachelors in Data Science 
+	and minoring in Computer Science and Mathematics. I work at H-E-B as a personal shooper. 
+	I have been working at H-E-B for two years already. I love my job and coworkers. </p>
+
+	<p style= text-align:center;>In the summer I participated in the UH REU Programm. It was difficult for all the students to get used to remote work. 
+	Overall it was challenging and a great experience for those who are thinking of doing research studies in the future. 
+	I dont have much hobbies but I do love to watch anime and play piano. Other than that I just work and attend classes right now. I am very excited to
+	graduate and get started on entry level positions. It seems covid 19 is cutting alot of opportunities so right now it
+	is difficult to apply for a job in my career as a university student. </p>
+
+	<p style=text-align:center;>In the next year I would like to start in my masters while searching for career opportunities. It will give me time to 
+	expand on what I have learned while also learning new material in graduate school. I know its a tough journey but im really hoping i can demonstrate everything
+	I have learned so far and be able to improve on it. </p>
+
+   <div id = 'pets'><a name = 'pets'><h2> My Pets</h2></a></div>
+	<p><img src = "everybody.jpg" width="300" height="200" alt="Photo of all my pets"></p>
+	<p> These are my pets. Currently have two dogs and two cats and one hedgehog. As you all can see everybody gets along and they even sleep together. The only one not in the picture is Naiyu (hedgehog). He small and dangerous to be out with the others.</p>
+
+	<p><img src = "Spunky.jpg" width="200" height="300" alt="Photo of Spunky"><img src = "kenai.jpg" width="200" height="300" alt="Photo of Kenai"></p>
+
+	<h3> My Dogs names are: </h3>
+
+		<h4>Spunky: </h4>
+			<li> She is a black labrador retriever </li>
+			<li> Shy around people she does not know </li>
+			<li> She gets jealous when she does not receive attention</li>
+
+		<h4> Kenai: </h4>
+			<li> He is a chow chow mix </li>
+			<li> He is very friendly around people </li>
+			<li> He is goofy and such a human being</li>
+	</li>
+</ul>
+
+	<p><img src = "Victorino.jpg" width="200" height="300" alt="Photo of Victorino"><img src = "Esponga.jpg" width="200" height="300" alt="Photo of Esponga"></p>
+	<h3> My Cats names are: </h3>
+        	<h4>Victorino: </h4>
+			<li> He is a kind chubby cat </li>
+			<li> He loves to eat and watch TV with you </li>
+			<li> He also loves to go outside and just sits to take in some sunlight.</li>
+
+                <h4>Esponga: </h4>
+			<li> He is a sassy cat </li>
+			<li> He will get his way no matter what </li>
+			<li> Victorino is his brother and they deeply care about eachother </li>
+			<li> He does not like to go outside much. </li>
+	</li>
+</ul>
+
+	<p><img src = "naiyu.jpg" width="200" height="300" alt="Photo of Naiyu"></p>
+	<h3> The Hedgehogs name is Naiyu </h3>
+		 <li> He is a grumpy little hedgehog </li>
+		 <li> His favorite thing to do is sleep </li>
+		 <li> He gets easily scared. He does a "VRMMMMM" sound when he is flustered </li>
+		 <li> Heghogs are nocturnal. He sleeps during the day and wakes up around 8pm </li>
+	</li>
+</ul>
+
+   <div id = 'devices'><a name = 'devices'><h2> My Cellular Devices</h2></a></div>
+
+<table border = "1">
+
+         <!-- the <caption> tag summarizes the table's -->
+         <!-- contents (this helps visually impaired people) -->
+         <caption><strong>Phones I owned from 2016-2020 (1st column) and 
+		    My personal rating (2nd column)</strong></caption>
+
+         <!-- the <thead> section appears first in the table -->
+         <!-- it formats the table header area -->
+         <thead>
+            <tr> <!-- <tr> inserts a table row -->
+               <th>Phones</th> <!-- insert a heading cell -->
+               <th>Rating (1 - 5)</th>
+            </tr>
+         </thead>
+
+         <!-- the <tfoot> section appears last in the table -->
+         <!-- it formats the table footer -->
+         <tfoot>
+            <tr>
+               <th>Overall experience</th>
+               <th>It was okay</th>
+            </tr>
+         </tfoot>
+
+         <!-- all table content is enclosed -->
+         <!-- within the <tbody> -->
+         <tbody>
+            <tr>
+               <td>Samsung Galaxy Note 20</td> <!-- insert a data cell -->
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>Samsung Galaxy S10+</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>One Plus 3T</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>One Plus One</td>
+               <td>4</td>
+            </tr>
+         </tbody>
+      </table>
+<br>
+<br>
+
+      <div id = 'questions'><a name = 'questions'><h2> Questions</h2></a></div>
+
+      <p>Please fill this form if you have any other questions about myself or the things I mentioned above.</p>
+
+      <!-- this tag starts the form, gives the -->
+      <!-- method of sending information and the -->
+      <!-- location of the form-processing script -->
+      <form method = "post" action = "https://www.linkedin.com/in/akrixsradilla">
+         <!-- hidden inputs contain non-visual -->
+         <!-- information that will also be submitted -->
+         <input type = "hidden" name = "recipient"
+            value = "radillaa2@gator.uhd.edu">
+         <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+
+         <!-- <input type = "text"> inserts a text field -->
+         <p><label>Name:
+               <input name = "name" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+
+	<!-- <textarea> creates a multiline textbox -->
+         <p><label>Question:<br>
+            <textarea name = "questions"
+               rows = "4" cols = "36">Enter questions here.</textarea>
+         </label></p>
+  
+         <p>
+            <!-- input types "submit" and "reset" insert -->
+            <!-- buttons for submitting and clearing the -->
+            <!-- form's contents, respectively -->
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+
+   </div>
+   </body>
+</html>
